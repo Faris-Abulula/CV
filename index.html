@@ -1,0 +1,724 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Faris Abulula Full</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="da21f32c-354d-45ca-892d-2c078f0d3436" class="page sans"><header><h1 class="page-title">Faris Abulula Full</h1><p class="page-description"></p></header><div class="page-body"><div id="f5d39415-4c4a-4fb1-ac66-867c7c3b720e" class="column-list"><div id="769c0903-e3f1-4c0e-acda-2d2b67d2cbb5" style="width:50%" class="column"><p id="16794f21-0e5d-4d2a-97bf-226df463fa4f" class=""><strong>Address</strong>: Meanwood, Leeds
+<strong>Mobile</strong>: 07413 345 627
+<strong>GitHub</strong>: <a href="https://github.com/Faris-Abulula">https://github.com/Faris-Abulula</a></p></div><div id="0be029c7-8d47-41e0-875a-f3d7c5761f21" style="width:50%" class="column"><p id="387b0896-a797-4075-89de-e54712e202ce" class="">
+<strong>Email</strong>: abululb02@gmail.com
+<strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/faris-a-331aa4200/">faris-a-331aa4200</a></p></div></div><h3 id="6b3f2e8b-4e6c-4fed-85a0-191b31deae04" class=""><mark class="highlight-blue"><strong>PERSONAL STATEMENT</strong></mark></h3><p id="3337b5d9-05b9-421c-ad11-bba5aa3056d6" class="">As an ardent engineer and enthusiast in programming, I am passionately driven by challenges that allow me to hone and expand my coding talent. I am a recent Generation UK&amp;I AWS graduate and my journey as a Python enthusiast has been both exhilarating and enlightening, marked by a series of personal projects that showcase my dedication to the craft. These projects not only demonstrate my technical prowess but also reflect my unwavering commitment to continuous learning and improvement in the world of software development.</p><h3 id="ad3a6568-f1e3-4df3-aa9f-374c09a82794" class=""><mark class="highlight-blue"><strong>KEY SKILLS</strong></mark></h3><ul id="5af31124-bcee-44b9-8031-ead133554075" class="bulleted-list"><li style="list-style-type:disc">Python (Advanced): Proficient in Python programming, with a strong grasp of advanced concepts and frameworks.</li></ul><ul id="fe5d7b6c-4639-4508-bda5-4646bbb845b1" class="bulleted-list"><li style="list-style-type:disc">Arduino (Intermediate): Competent in Arduino programming and hardware interfacing, with experience in creating projects.</li></ul><ul id="a1da7e9e-d4e4-4b93-948a-93d26dd51982" class="bulleted-list"><li style="list-style-type:disc">JavaScript (Beginner): Basic understanding and beginner-level proficiency in JavaScript programming.</li></ul><ul id="0d3aaefd-da48-4bbd-bedd-b932b21de2dc" class="bulleted-list"><li style="list-style-type:disc">Web Development: Familiarity with Flask, REST, CSS, and HTML for web development, contributing to creating functional and visually appealing web applications.</li></ul><ul id="beb57e83-5628-4256-9714-96c0bf4d5a67" class="bulleted-list"><li style="list-style-type:disc">Git: Used Git version control system for collaborative software development and code management.</li></ul><ul id="4c87f0cc-041f-433a-a014-a4aeeb4f2024" class="bulleted-list"><li style="list-style-type:disc">Database: Good understanding of SQL for database management and querying and extensively used Notion databases</li></ul><ul id="bf58a2fe-112a-4a0c-90b7-e931a07943a0" class="bulleted-list"><li style="list-style-type:disc">Teamwork: Adept at collaborating within diverse teams, fostering a cooperative environment, and effectively contributing towards shared objectives. Currently in the <a href="https://alqudsacademy.org/">Al Quds Academy</a> technology and community team.</li></ul><ul id="6f9d5b2b-185a-4fdc-b852-f4dfdbf6422b" class="bulleted-list"><li style="list-style-type:disc">Organisation: Skilled in structuring and organising resources using tools like Notion, streamlining workflows, and optimising information accessibility for improved productivity and efficiency.</li></ul><h3 id="ba8991ed-4b3b-45aa-a203-a1bbc65d2cd5" class=""><mark class="highlight-blue"><strong>EXPERIENCE</strong></mark></h3><ul id="521406b5-ef92-40d1-bca3-1e2582b3d926" class="toggle"><li><details open=""><summary><strong>Generation UK Training, </strong><strong><a href="https://www.credly.com/badges/e4a6a418-c981-4acd-9d9a-a52bdb874a28">AWS re/Start Graduate</a></strong> [Online, Tue 29th Aug 2023 - Nov 2023]</summary><p id="8828beda-4d37-423b-b637-4baaf2f4bfe1" class="">Cloud Foundations, Linux, Networking, Security, Python, Databases and Jumpstart AWS</p></details></li></ul><ul id="03d7a6a8-4639-4215-b8ee-4551feb46cab" class="bulleted-list"><li style="list-style-type:disc">Completed full-time, classroom based skills development and training program on IT fundamentals, AWS Cloud, and professional skills.</li></ul><ul id="aa447316-a521-45ca-bcba-b0036f097304" class="bulleted-list"><li style="list-style-type:disc">Built IT fundamental skills, including: working knowledge of Linux OS, writing scripts in Python and Shell.</li></ul><ul id="06805fdd-7227-4d61-ac54-ac10080ceff6" class="bulleted-list"><li style="list-style-type:disc">Learned how to apply core AWS services in the areas of compute, storage and networking; including EC2, S3, IAM, VPC, Lambda, Cloud Formation, RDS and Route 53.</li></ul><ul id="d63eda78-5697-45ad-97f9-15cee0d1bcf1" class="bulleted-list"><li style="list-style-type:disc">Demonstrated strong verbal and written communication skills, including the ability to explain technical information and terminology to non-technical end users.</li></ul><ul id="1253991d-a8a7-4129-97db-ad62f08a9765" class="bulleted-list"><li style="list-style-type:disc">Learned how to configure, monitor, and support the suite of core AWS services.</li></ul><p id="1c5387f1-1364-4de4-abeb-0003d3b3623c" class=""><strong>Sky HQ Insight Day</strong> [London, Fri 29th Sep 2023]</p><p id="646861a3-e88c-430a-a6c8-771e5703fdf0" class=""><a href="https://my.upreach.org.uk/home"><strong>UpReach Associate</strong></a> [Online, Jun 2020 - Jul 2023]</p><p id="0ab33b8a-3e43-46e2-8746-8d1b68ecb654" class=""><a href="https://recruitment.fdmgroup.com/uhack-university-challenge/"><strong>FDM uHack Challenge</strong></a> [Leeds, Jun 2023]</p><ul id="d39583ae-a553-4946-94ba-b46c77402d1e" class="bulleted-list"><li style="list-style-type:disc">Developed an idea and created a wireframe for an innovative web platform, designed to connect FDM Alumni.</li></ul><ul id="80fd982f-ec25-4da7-9bf4-68ed79240ecf" class="bulleted-list"><li style="list-style-type:disc">Experience working in an Agile/Scrum team setting and opportunity to work on a real industry challenge.</li></ul><ul id="cc093aef-37ad-4508-b089-332ed3d0fd74" class="bulleted-list"><li style="list-style-type:disc">Developed communication skills whilst gathering requirements from key stakeholders and pitching a technical solution to a panel of FDM experts</li></ul><p id="a42cd174-d3fd-469b-a6f0-1693d714cdf0" class=""><strong>Leeds University Union Islamic Society ‘Education Officer’</strong> [Leeds, Sep 2019 - May 2023]</p><ul id="fdf8e456-cba3-450d-9b9d-5056f621d8a2" class="bulleted-list"><li style="list-style-type:disc">Developed teamwork and time-management skills over 4 years by planning and organising student events such as welcome dinners, treasure hunts and talks.</li></ul><ul id="755171ba-e419-4812-bfa7-bc67c915c1bc" class="bulleted-list"><li style="list-style-type:disc">Actively encouraged student participation by promoting events on social media and communicating with over 850 current and prospective society members.</li></ul><p id="2be87948-0e9a-4a28-a6b3-3acd123aa493" class=""><strong>Generating Genius Outreach Programme</strong> [Online, Apr 2021]</p><ul id="4e9b1950-0b74-47f8-9ca7-4110ad109696" class="bulleted-list"><li style="list-style-type:disc">Attended Engineering and Data Science Insight weeks, hosted by The National Grid.</li></ul><ul id="851cbe05-e0de-4ccc-9100-d04c3a9ac329" class="bulleted-list"><li style="list-style-type:disc">Competed in a team of 5 engineers to determine the optimum number and location of electric vehicle chargers needed to supply sufficient energy to EVs.</li></ul><ul id="9756a7d8-d4b1-4fae-b392-9c596857864c" class="bulleted-list"><li style="list-style-type:disc">Presented a winning solution to a panel of National Grid engineers while using analytical skills and teamwork to consider factors such as pricing, distance, and types of public electric chargers.</li></ul><p id="b461e039-4525-4b60-a21c-4107e27e6a4f" class=""><a href="https://www.youtube.com/watch?v=GN5qJeE_WpU&amp;ab_channel=AheadPartnership"><strong>ARUP Engineering Awareness Week</strong></a> [Leeds, Jul 2018]</p><ul id="53d5f5d4-302d-4b19-a682-849a0e9bbe00" class="bulleted-list"><li style="list-style-type:disc">Enhanced teamwork and communication skills by using a multi-disciplinary approach to locally host the Olympics.</li></ul><ul id="7d324004-f356-42e5-b4e5-5316e7271fe5" class="bulleted-list"><li style="list-style-type:disc">Used analytical skills to consider factors such as location, price and material to model buildings.</li></ul><ul id="46795f11-576d-442e-93b7-63d83c075530" class="bulleted-list"><li style="list-style-type:disc">Presented findings to a panel of senior engineers improving my public speaking skills.</li></ul><p id="083f8ab8-aa2b-4246-b550-1a57aa4edced" class=""><strong>Cambridge Sutton Trust Chemistry</strong> [Cambridge, Jul 2018]</p><p id="e8946be2-c101-4b8a-9a68-76c4472de001" class=""><strong>Imperial College London Summer School</strong> [London, Jul 2018]</p><ul id="080aab2d-d7d1-440b-85a1-4540940f022e" class="bulleted-list"><li style="list-style-type:disc">Designed and programmed the winning remote-controlled car that competed against others demonstrating my programming and problem-solving skills under pressure.</li></ul><ul id="54e8c44d-0fb7-4810-bbdc-2b7e3c7b278b" class="bulleted-list"><li style="list-style-type:disc">Increased my awareness and understanding of software engineering.</li></ul><p id="01617451-e715-438f-8ca2-0f868bd5e3ed" class=""><strong>Electronics Club</strong> [Leeds, Mar 2018 - May 2019]</p><ul id="aa238a57-2d5a-47f2-a26a-e2dc903f2911" class="bulleted-list"><li style="list-style-type:disc">Developed a basic understanding of how Arduinos are used and applied this knowledge to design and create a ‘Simon Says’ memory game using an Arduino.</li></ul><ul id="862e4321-db09-47b5-9c81-88d661b7760f" class="bulleted-list"><li style="list-style-type:disc">Learned how to write code in the Arduino programming language and effectively controlled lighting and other environmental outputs of a model house.</li></ul><p id="9f0842f9-a0cf-40d9-a6df-6ef255abdd06" class=""><strong>Social Mobility Foundation</strong> [2017 - current]</p><p id="6926057d-4621-4724-9775-9a063728f328" class=""><strong>National Citizen Service</strong> [Leeds, Jul 2017]</p><ul id="2a703b8e-cf57-46de-995b-da6323dca9ec" class="bulleted-list"><li style="list-style-type:disc">Completed NCS, enhancing teamwork, leadership, and community engagement skills through volunteer work and collaborative projects.</li></ul><p id="8a766868-e5a8-4573-9429-d6ff94569d79" class=""><strong>Duke of Edinburgh</strong> [Bronze Award, 2014 - 2016]</p><ul id="929cba5a-e49c-4c72-9dae-b388f5c6795c" class="bulleted-list"><li style="list-style-type:disc">Attained the Bronze Award, demonstrating resilience, outdoor skills, and community involvement through volunteering and expeditions.</li></ul><h3 id="e6cb6d3d-3ff0-4a95-9e18-8ade489f1676" class=""><mark class="highlight-blue">WORK </mark><mark class="highlight-blue"><strong>EXPERIENCE</strong></mark></h3><p id="a38c5947-bae0-4be3-ace7-53a8bac22ecf" class=""><strong>Supermarket Assistant, Meanwood Waitrose</strong> [Feb 2016]</p><ul id="e5f7c011-930b-432c-b6c8-1296d8141d84" class="bulleted-list"><li style="list-style-type:disc">Developed punctuality, organisation and problem-solving skills by taking on a variety of tasks.</li></ul><ul id="47e15324-34d7-4c0c-a710-299127cd7c35" class="bulleted-list"><li style="list-style-type:disc">Honed my confidence and interpersonal skills through regular interactions with customers allowing me to communicate effectively.</li></ul><h3 id="8d9a6ab2-10ee-47a1-856a-d2c199c50c15" class=""><mark class="highlight-blue">PROJECTS</mark></h3><p id="3caa9dc7-9029-4915-8a2b-de82a256d7cb" class=""><strong><a href="https://github.com/Faris-Abulula/freeCodeCamp-Python-Projects">freeCodeCamp Project</a></strong><strong>: </strong><strong><a href="https://www.freecodecamp.org/certification/fccbb16818c-c2fd-4d47-b806-d86c9d9d5876/scientific-computing-with-python-v7">Certificate</a></strong> - Python [Oct 2022]</p><ul id="3c8fe78f-1b4f-40a3-9fdf-48dc4304ab44" class="bulleted-list"><li style="list-style-type:disc">Projects include: <a href="https://github.com/Faris-Abulula/freeCodeCamp-Python-Projects/blob/main/Arithmetic%20Formatter.ipynb">Arithmetic Formatter</a>, <a href="https://github.com/Faris-Abulula/freeCodeCamp-Python-Projects/blob/main/Budget%20App.ipynb">Budget App</a>, <a href="https://github.com/Faris-Abulula/freeCodeCamp-Python-Projects/blob/main/Polygon%20Area%20Calculator.ipynb">Polygon Area Calculator</a>, <a href="https://github.com/Faris-Abulula/freeCodeCamp-Python-Projects/blob/main/Probability%20Calculator.ipynb">Probability Calculator</a>, <a href="https://github.com/Faris-Abulula/freeCodeCamp-Python-Projects/blob/main/Time%20Calculator.ipynb">Time Calculator</a></li></ul><p id="dd51a931-2a44-4e60-9538-f4fa1ef95da1" class=""><strong><a href="https://github.com/Faris-Abulula/Noughts-and-Crosses">Noughts and Crosses game</a></strong> - Python [Oct 2020]</p><p id="5298b2ee-f4bf-41f3-98d4-f4fe83bc431f" class=""><strong><a href="https://github.com/Faris-Abulula/Timetable-Integration">University timetable integration</a></strong> - Python (requests, BeautifulSoup), Notion Database [Oct 2022]</p><p id="6ebbc886-3fa8-42fe-a256-e44ec5cab098" class=""><strong><a href="https://github.com/Faris-Abulula/Prayer-Calendar-Notion-Integration">Image processing prayer timetable</a></strong> - Python (cv2, matplotlib, pytesseract, requests), Notion Database [Oct 2022]</p><p id="21291764-2ca6-4ddf-8276-eee703f0d30f" class=""><strong><a href="https://github.com/Faris-Abulula/Prayer-Time-Web-Scrapping">Web scraped prayer timetable</a></strong> - Python (requests, BeautifulSoup, pandas), Notion Database, AWS Lambda [Nov 2023]</p><p id="d8d416f3-f904-4af7-96aa-3daddfc85175" class=""><a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/"><strong>AWS Serverless CI/CD Website (Front end &amp; Back End)</strong></a> - HTML, CSS, AWS S3, AWS CloudFront [Nov 2023]</p><ul id="f7470f46-4d7c-4577-b021-753377e72a84" class="bulleted-list"><li style="list-style-type:disc">Launched serverless S3 hosted static website with integrated CI/CD pipeline for front and back end code.</li></ul><ul id="c7f0d518-8105-4afb-bdff-cfd5184a9425" class="bulleted-list"><li style="list-style-type:disc">Automated back end infrastructure creation using AWS SAM and Github Actions.</li></ul><ul id="e38d8702-a511-4472-bf8d-8a971d629712" class="bulleted-list"><li style="list-style-type:disc">Leveraged Python Boto3 and Lambda to automate &amp; serve changes to/from DynamoDB using API Gateway.</li></ul><ul id="c36de2a0-f461-48c4-9be5-6bb2cacedfc2" class="bulleted-list"><li style="list-style-type:disc"><a href="https://s3.eu-west-2.amazonaws.com/fariscv.com/fariscv.html">Online CV</a></li></ul><h3 id="facbb847-3fe9-4cc3-9ef9-2fd602310382" class=""><mark class="highlight-blue">LANGUAGES</mark></h3><p id="e4667396-ba79-453f-a2da-1195fb603d20" class=""><strong>English </strong>(Native), <strong>Arabic </strong>(Fluent)</p><h3 id="b6f1ef24-d4a5-4d38-80a0-5068be0bafae" class=""><mark class="highlight-blue"><strong>EDUCATION AND CERTIFICATIONS</strong></mark></h3><p id="0e843969-9505-4669-8046-507abdc30056" class=""><strong><a href="https://www.credly.com/earner/earned/badge/563c19a0-5e10-4301-a334-60cdd6be636d">AWS Certified Cloud Practitioner</a></strong><strong> </strong>[Online, Dec 2023]</p><p id="532d9dd5-5ab1-4e67-bef0-7893b992539c" class=""><a href="https://www.credly.com/badges/147b58b2-3bc8-4d3c-9870-aae4922bf9c6/public_url"><strong>Notion Essentials Badge</strong></a><strong> </strong>[Online, Oct 2023]</p><ul id="00c70b3c-b213-46bf-8f7e-2bd0d166a0ce" class="bulleted-list"><li style="list-style-type:disc">Proficiency across all Notion features including databases</li></ul><p id="2d6739ea-a200-415f-bf3a-eeb9f9be527f" class=""><a href="https://www.freecodecamp.org/certification/fccbb16818c-c2fd-4d47-b806-d86c9d9d5876/scientific-computing-with-python-v7"><strong>Scientific Computing with Python</strong></a><strong>, freeCodeCamp Course </strong>[Online, June 2022]</p><ul id="0b3a270e-c7cb-4754-898d-57f72fecfef7" class="bulleted-list"><li style="list-style-type:disc">Python, Regular Expressions, Networking, Web Services, Databases (300 hours)</li></ul><ul id="d20d05d4-0f1c-4659-bdcc-2a6b54588ef6" class="toggle"><li><details open=""><summary><strong>MEng, BEng Chemical Engineering, University of Leeds </strong>[Leeds, Sep 2019 - Jul 2023]</summary><div id="15662463-2a48-4160-9ef1-e36bd1936481" class="column-list"><div id="7374cf99-d57e-448b-abfd-23fb3476375b" style="width:62.5%" class="column"><p id="49ca5d1d-e3e8-4934-ae6b-a158d6ed7899" class=""><strong>Fourth Year
+</strong>CAPE 5010M Research Project (MEng)
+CAPE 5300M Chemical Products Design and Dev
+CAPE 5320M Multi-Scale Modelling and Simulation
+CAPE 5330M Advanced Reaction Engineering
+CAPE 5340M Advances in Chemical Engineering</p><p id="c4cfd6e7-2b66-4244-b59b-2534ac6d5019" class=""><strong>Third Year
+</strong>CAPE 3000 Design Project (BEng)
+CAPE 3300 Process Engineering Operations
+CAPE 3301 Separation Processes
+CAPE 3320 Reaction Engineering
+CAPE 3321 Process Optimisation and Control</p><p id="8f7da292-698b-4f7e-b271-0bdff5dadd54" class=""><strong>Second Year
+</strong>CAPE 2000 Mathematical Techniques 2
+CAPE 2020 Safety, Health &amp; Environment
+CAPE 2030 Process Systems &amp; Applications
+CAPE 2050 Engineering Science 2
+CAPE 2060 Chemical Thermodynamics
+CAPE 2710 Materials Synthesis &amp; Characterisation</p><p id="820fb531-7908-48b7-bf00-208233569e25" class=""><strong>First Year
+</strong>CAPE 1000 Technical Skills &amp; Application
+CAPE 1010 Intro to Process Engineering
+CAPE 1020 Engineering Science 1
+CAPE 1040 Mathematical Techniques 1
+CAPE 1700 Topics in Nanotechnology
+CAPE 1720 Materials Science &amp; Engineering</p></div><div id="875bc7cf-8776-49a6-9a6c-e67fda5df9f6" style="width:37.49999999999999%" class="column"><p id="b121c9a1-d827-4456-877e-8c407d079f1e" class=""><strong>Mark
+</strong>59
+70
+74
+60
+76</p><p id="ff34b5cb-07b7-4aac-866b-d8865bc20ce9" class=""><strong>Mark
+</strong>63
+75
+72
+67
+66</p><p id="98f6cca0-284a-43a9-8787-1cd5e392fd42" class=""><strong>Mark
+</strong>90
+70
+73
+75
+66
+70</p><p id="9087f89d-7642-4e38-9296-1bf89d7abf79" class=""><strong>Mark
+</strong>80
+P
+P
+P
+64
+59</p></div></div></details></li></ul><ul id="92aff823-d4cb-48a6-b08b-834b58226735" class="bulleted-list"><li style="list-style-type:disc">First Class Honours: Mathematical Techniques 2 (90%), Safety, Health &amp; Environment (70%), Engineering Science 2 (75%)</li></ul><p id="6b8bc06f-949e-458a-8916-98a8c3f593cf" class=""><strong>A-Levels, Notre Dame Catholic Sixth Form College</strong> [Leeds, Sep 2017 - 2019]</p><ul id="d27fef98-1016-40ed-b92c-8085fb09685e" class="bulleted-list"><li style="list-style-type:disc">Maths (A*), Chemistry (A), Physics (B), AS Further Maths (A), EPQ (B)</li></ul><ul id="8c0ecd44-6647-4837-b1c6-366988c7cd0a" class="bulleted-list"><li style="list-style-type:disc">UK Senior Maths Challenge (Gold)</li></ul><ul id="3be18a3b-1430-42e1-b070-a2f214f28289" class="bulleted-list"><li style="list-style-type:disc">Cambridge Chemistry Challenge (Gold, <a href="https://www.notredamecoll.ac.uk/news/chemistry-students-demonstrate-the-elements-of-success">Best in college history</a>)</li></ul><ul id="4a618a7b-db1c-450b-a271-3380fb7fc6db" class="toggle"><li><details open=""><summary><strong>GCSEs, Carr Manor Community School</strong> [Leeds, Sep 2012 - 2017]</summary><p id="8d7dd5e3-bd49-4ebe-ad94-0b9effef802c" class="">AQA GCSE Art &amp; Design (2017) C</p><p id="210ccdb3-65bc-416e-855f-89c5d3623b66" class="">OCR GCSE Computing (2016) A*</p><p id="7ba3cef9-2736-48c8-aa69-de3f8b41b28a" class="">Edexcel GCSE English Language 5</p><p id="098fe7bf-2f61-4966-a134-cad614d1ed3e" class="">Edexcel GCSE English Literature 6</p><p id="6a48acd5-696c-4494-b152-f954ffdbf0ed" class="">AQA GCSE Geography A</p><p id="1119f0c1-aba9-438c-8f97-a832fb31d82d" class="">Edexcel GCSE Maths Foundation 9</p><p id="8bb73f2c-475f-44d1-bd38-1c1269ab8592" class="">AQA GCSE Core Science A</p><p id="f3efbd5a-3b29-4cbb-8253-ea997817c30e" class="">AQA GCSE Science Additional A</p><p id="18ca8b81-cee3-4af0-a808-1f4f5b754cba" class="">AQA GCSE Spanish (2017) B</p><p id="8421756f-de56-4b7e-85e7-a219f813c4b3" class="">BCS ECDL Certificate in IT Application Skills Distinction*</p></details></li></ul><ul id="b82f1d45-41a7-4b45-94e4-6ebbdd31ecd7" class="bulleted-list"><li style="list-style-type:disc">9 GCSEs A* - C</li></ul><ul id="77c4af0a-012f-48d4-8616-32528f84d547" class="bulleted-list"><li style="list-style-type:disc">UK Intermediate Maths Challenge (Best in school)</li></ul><ul id="240ba116-0775-4e4b-b63e-1bbb98e06d2a" class="bulleted-list"><li style="list-style-type:disc">National Citizen Service (NCS),<strong> </strong>Duke of Edinburgh Award (Bronze Award)</li></ul><h3 id="e1297622-c9bc-4105-a349-ee02f05ecbb2" class=""><mark class="highlight-blue"><strong>INTERESTS</strong></mark></h3><ul id="09c57cef-99f8-4260-a9d8-95445f6a9ad6" class="bulleted-list"><li style="list-style-type:disc"><strong>Community Involvement</strong>: Engaged in tech meetups and various community-oriented activities, demonstrating a commitment to giving back and making a positive impact on society.</li></ul><ul id="5c8910fd-30e0-42c3-8e08-167bbe7f1b8d" class="bulleted-list"><li style="list-style-type:disc"><strong>Rubik’s Cube, Chess Club</strong>: Active chess member, honing strategic thinking, problem-solving, and analytical abilities through competitive chess matches, tournaments and solving the Rubik&#x27;s Cube.</li></ul><ul id="021b0323-1ac0-4210-8b9a-ea0b4630ca57" class="bulleted-list"><li style="list-style-type:disc"><strong>Football, Hockey Team (Competitive Training)</strong>: Dedicated training and participation in a competitive hockey team and regular football matches, cultivating discipline, teamwork, sportsmanship and physical fitness.</li></ul><ul id="a262f109-6ea7-47cc-a2d0-76d6d3d1b4c9" class="bulleted-list"><li style="list-style-type:disc"><strong>Arabic Grammar</strong>: Passion for studying Arabic grammar, showcasing linguistic interests and dedication to language learning and understanding diverse cultures.</li></ul><ul id="918db9f4-1360-41c1-852c-2f72dc56dad8" class="bulleted-list"><li style="list-style-type:disc"><strong>Personal Python Projects</strong>: Demonstrated skills and creativity through independent coding projects in Python, displaying a strong interest in software development and problem-solving in the digital realm. Examples include <a href="https://github.com/Faris-Abulula/Timetable-Integration">university timetable integration</a>, <a href="https://github.com/Faris-Abulula/Noughts-and-Crosses">Noughts and Crosses game</a> and <a href="https://github.com/Faris-Abulula/Prayer-Time-Web-Scrapping">prayer time</a> projects.</li></ul></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
